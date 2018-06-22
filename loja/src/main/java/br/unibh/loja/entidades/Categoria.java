@@ -12,6 +12,7 @@ import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.NotBlank;
 
+//teste
 @Entity
 @Table(name="tb_categoria", uniqueConstraints = {
 		@UniqueConstraint(columnNames = {"descricao"})
