@@ -1,6 +1,4 @@
 package br.unibh.loja;
-
-
 import java.util.Date;
 import java.util.Set;
 import javax.validation.ConstraintViolation;

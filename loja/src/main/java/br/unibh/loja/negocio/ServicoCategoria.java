@@ -49,6 +49,6 @@ public class ServicoCategoria implements DAO<Categoria, Long> {
 	@SuppressWarnings("unchecked")
 	public List<Categoria> findByName(String name) throws Exception {
 		log.info("Encontrando o " + name);
-		return em.createNamedQuery("Categoria.findByName").setParameter("nome", "%" + name + "%").getResultList();
+		return em.createNamedQuery("Categoria.findByName").setParameter("descricao", "%" + name + "%").getResultList();
 	}
 }
