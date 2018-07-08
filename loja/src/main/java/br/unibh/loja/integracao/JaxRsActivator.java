@@ -29,6 +29,7 @@ public class JaxRsActivator extends Application {
 		resources.add(ApiListingResource.class);
 		resources.add(SwaggerSerializers.class);
 		// classes da aplicacao
+		resources.add(RestTest.class);
 		resources.add(JaxRsActivator.class);
 		resources.add(RestCliente.class);
 		//resources.add(RestCidade.class);
